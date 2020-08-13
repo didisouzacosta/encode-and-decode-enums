@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E1DC6B8F24E4A6F100DB0A2C"
-               BuildableName = "SwiftProjectTemplate.app"
-               BlueprintName = "SwiftProjectTemplate"
-               ReferencedContainer = "container:SwiftProjectTemplate.xcodeproj">
+               BuildableName = "EncodeAndDecodeEnum.app"
+               BlueprintName = "EncodeAndDecodeEnum"
+               ReferencedContainer = "container:EncodeAndDecodeEnum.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,9 +34,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E1DC6BA524E4A6F700DB0A2C"
-               BuildableName = "SwiftProjectTemplateTests.xctest"
-               BlueprintName = "SwiftProjectTemplateTests"
-               ReferencedContainer = "container:SwiftProjectTemplate.xcodeproj">
+               BuildableName = "EncodeAndDecodeEnumTests.xctest"
+               BlueprintName = "EncodeAndDecodeEnumTests"
+               ReferencedContainer = "container:EncodeAndDecodeEnum.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E1DC6B8F24E4A6F100DB0A2C"
-            BuildableName = "SwiftProjectTemplate.app"
-            BlueprintName = "SwiftProjectTemplate"
-            ReferencedContainer = "container:SwiftProjectTemplate.xcodeproj">
+            BuildableName = "EncodeAndDecodeEnum.app"
+            BlueprintName = "EncodeAndDecodeEnum"
+            ReferencedContainer = "container:EncodeAndDecodeEnum.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -73,9 +73,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E1DC6B8F24E4A6F100DB0A2C"
-            BuildableName = "SwiftProjectTemplate.app"
-            BlueprintName = "SwiftProjectTemplate"
-            ReferencedContainer = "container:SwiftProjectTemplate.xcodeproj">
+            BuildableName = "EncodeAndDecodeEnum.app"
+            BlueprintName = "EncodeAndDecodeEnum"
+            ReferencedContainer = "container:EncodeAndDecodeEnum.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

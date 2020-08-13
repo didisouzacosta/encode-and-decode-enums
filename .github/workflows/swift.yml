@@ -1,8 +1,8 @@
 name: Swift
 
 env:
-  TARGET: SwiftProjectTemplate
-  XCODE_WORKSPACE: SwiftProjectTemplate.xcworkspace
+  TARGET: EncodeAndDecodeEnum
+  XCODE_WORKSPACE: EncodeAndDecodeEnum.xcworkspace
   SIMULATOR: iPhone 11 Pro Max
 
 on:

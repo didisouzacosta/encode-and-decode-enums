@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		024BDE2EDF7990BA97AA8200 /* Pods_SwiftProjectTemplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAA2D5BB3F0912F5C7DC00C /* Pods_SwiftProjectTemplate.framework */; };
-		8D785FB9D7850D8AF9EF9F00 /* Pods_SwiftProjectTemplateTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44E96656441B2D1F55A7A46D /* Pods_SwiftProjectTemplateTests.framework */; };
+		1459CF971D71E442DB8E5B4F /* Pods_EncodeAndDecodeEnum.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09582B3244282A1D38D01E3F /* Pods_EncodeAndDecodeEnum.framework */; };
+		4A528236CF697EDEBAEF2A7E /* Pods_EncodeAndDecodeEnumTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6BD139ECCB4FF8FA71632F1 /* Pods_EncodeAndDecodeEnumTests.framework */; };
 		E164C0DA24E4B79E00E64A6C /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = E164C0D924E4B79E00E64A6C /* .swiftlint.yml */; };
 		E1C64ED424E4BCDB00F405A7 /* AuthenticationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C64ED324E4BCDB00F405A7 /* AuthenticationType.swift */; };
 		E1C64ED824E4BDCC00F405A7 /* AuthenticationTypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C64ED724E4BDCC00F405A7 /* AuthenticationTypeTests.swift */; };
@@ -31,16 +31,19 @@
 
 /* Begin PBXFileReference section */
 		0383C2CDCF31451FEC558866 /* Pods-SwiftProjectTemplateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftProjectTemplateTests.release.xcconfig"; path = "Target Support Files/Pods-SwiftProjectTemplateTests/Pods-SwiftProjectTemplateTests.release.xcconfig"; sourceTree = "<group>"; };
+		09582B3244282A1D38D01E3F /* Pods_EncodeAndDecodeEnum.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EncodeAndDecodeEnum.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		11F230F016A0ED2C5285D9ED /* Pods-SwiftProjectTemplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftProjectTemplate.release.xcconfig"; path = "Target Support Files/Pods-SwiftProjectTemplate/Pods-SwiftProjectTemplate.release.xcconfig"; sourceTree = "<group>"; };
-		3DAA2D5BB3F0912F5C7DC00C /* Pods_SwiftProjectTemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftProjectTemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		44E96656441B2D1F55A7A46D /* Pods_SwiftProjectTemplateTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftProjectTemplateTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F25E252C6B5BDB8E7A10D62 /* Pods-EncodeAndDecodeEnumTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EncodeAndDecodeEnumTests.release.xcconfig"; path = "Target Support Files/Pods-EncodeAndDecodeEnumTests/Pods-EncodeAndDecodeEnumTests.release.xcconfig"; sourceTree = "<group>"; };
+		6C18BDE93F89A513C9CF52B9 /* Pods-EncodeAndDecodeEnum.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EncodeAndDecodeEnum.release.xcconfig"; path = "Target Support Files/Pods-EncodeAndDecodeEnum/Pods-EncodeAndDecodeEnum.release.xcconfig"; sourceTree = "<group>"; };
 		774E1A01B72F78C6D6C77827 /* Pods-SwiftProjectTemplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftProjectTemplate.debug.xcconfig"; path = "Target Support Files/Pods-SwiftProjectTemplate/Pods-SwiftProjectTemplate.debug.xcconfig"; sourceTree = "<group>"; };
+		A859C036EB7870DE9EE2C68B /* Pods-EncodeAndDecodeEnum.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EncodeAndDecodeEnum.debug.xcconfig"; path = "Target Support Files/Pods-EncodeAndDecodeEnum/Pods-EncodeAndDecodeEnum.debug.xcconfig"; sourceTree = "<group>"; };
 		C28D0BAAFB666B5A706A4C2B /* Pods-SwiftProjectTemplateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftProjectTemplateTests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftProjectTemplateTests/Pods-SwiftProjectTemplateTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C6BD139ECCB4FF8FA71632F1 /* Pods_EncodeAndDecodeEnumTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EncodeAndDecodeEnumTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E164C0D924E4B79E00E64A6C /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		E1C64ED324E4BCDB00F405A7 /* AuthenticationType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationType.swift; sourceTree = "<group>"; };
 		E1C64ED724E4BDCC00F405A7 /* AuthenticationTypeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationTypeTests.swift; sourceTree = "<group>"; };
-		E1DC6B9024E4A6F100DB0A2C /* SwiftProjectTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftProjectTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E1DC6BA624E4A6F700DB0A2C /* SwiftProjectTemplateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftProjectTemplateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1DC6B9024E4A6F100DB0A2C /* EncodeAndDecodeEnum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EncodeAndDecodeEnum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1DC6BA624E4A6F700DB0A2C /* EncodeAndDecodeEnumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EncodeAndDecodeEnumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1DC6BAC24E4A6F700DB0A2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1DC6BB924E4A9D600DB0A2C /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E1DC6BBA24E4A9D600DB0A2C /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -48,6 +51,7 @@
 		E1DC6BBF24E4AA7D00DB0A2C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1DC6BC424E4AAA400DB0A2C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		E1DC6BC524E4AAA400DB0A2C /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FCF763248BB82AC4A1BAFE7F /* Pods-EncodeAndDecodeEnumTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EncodeAndDecodeEnumTests.debug.xcconfig"; path = "Target Support Files/Pods-EncodeAndDecodeEnumTests/Pods-EncodeAndDecodeEnumTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				024BDE2EDF7990BA97AA8200 /* Pods_SwiftProjectTemplate.framework in Frameworks */,
+				1459CF971D71E442DB8E5B4F /* Pods_EncodeAndDecodeEnum.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,7 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D785FB9D7850D8AF9EF9F00 /* Pods_SwiftProjectTemplateTests.framework in Frameworks */,
+				4A528236CF697EDEBAEF2A7E /* Pods_EncodeAndDecodeEnumTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,8 +77,8 @@
 		C5E8FE2FD1FCE920B071FC53 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3DAA2D5BB3F0912F5C7DC00C /* Pods_SwiftProjectTemplate.framework */,
-				44E96656441B2D1F55A7A46D /* Pods_SwiftProjectTemplateTests.framework */,
+				09582B3244282A1D38D01E3F /* Pods_EncodeAndDecodeEnum.framework */,
+				C6BD139ECCB4FF8FA71632F1 /* Pods_EncodeAndDecodeEnumTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -86,6 +90,10 @@
 				11F230F016A0ED2C5285D9ED /* Pods-SwiftProjectTemplate.release.xcconfig */,
 				C28D0BAAFB666B5A706A4C2B /* Pods-SwiftProjectTemplateTests.debug.xcconfig */,
 				0383C2CDCF31451FEC558866 /* Pods-SwiftProjectTemplateTests.release.xcconfig */,
+				A859C036EB7870DE9EE2C68B /* Pods-EncodeAndDecodeEnum.debug.xcconfig */,
+				6C18BDE93F89A513C9CF52B9 /* Pods-EncodeAndDecodeEnum.release.xcconfig */,
+				FCF763248BB82AC4A1BAFE7F /* Pods-EncodeAndDecodeEnumTests.debug.xcconfig */,
+				2F25E252C6B5BDB8E7A10D62 /* Pods-EncodeAndDecodeEnumTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -134,8 +142,8 @@
 			isa = PBXGroup;
 			children = (
 				E164C0D924E4B79E00E64A6C /* .swiftlint.yml */,
-				E1DC6B9224E4A6F100DB0A2C /* SwiftProjectTemplate */,
-				E1DC6BA924E4A6F700DB0A2C /* SwiftProjectTemplateTests */,
+				E1DC6B9224E4A6F100DB0A2C /* EncodeAndDecodeEnum */,
+				E1DC6BA924E4A6F700DB0A2C /* EncodeAndDecodeEnumTests */,
 				E1DC6B9124E4A6F100DB0A2C /* Products */,
 				DE2CF67D0C55C07A4F07DFB3 /* Pods */,
 				C5E8FE2FD1FCE920B071FC53 /* Frameworks */,
@@ -145,28 +153,28 @@
 		E1DC6B9124E4A6F100DB0A2C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E1DC6B9024E4A6F100DB0A2C /* SwiftProjectTemplate.app */,
-				E1DC6BA624E4A6F700DB0A2C /* SwiftProjectTemplateTests.xctest */,
+				E1DC6B9024E4A6F100DB0A2C /* EncodeAndDecodeEnum.app */,
+				E1DC6BA624E4A6F700DB0A2C /* EncodeAndDecodeEnumTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E1DC6B9224E4A6F100DB0A2C /* SwiftProjectTemplate */ = {
+		E1DC6B9224E4A6F100DB0A2C /* EncodeAndDecodeEnum */ = {
 			isa = PBXGroup;
 			children = (
 				E1DC6BB724E4A9A100DB0A2C /* Resources */,
 				E1DC6BB624E4A99C00DB0A2C /* Sources */,
 			);
-			path = SwiftProjectTemplate;
+			path = EncodeAndDecodeEnum;
 			sourceTree = "<group>";
 		};
-		E1DC6BA924E4A6F700DB0A2C /* SwiftProjectTemplateTests */ = {
+		E1DC6BA924E4A6F700DB0A2C /* EncodeAndDecodeEnumTests */ = {
 			isa = PBXGroup;
 			children = (
 				E1C64ED524E4BDA000F405A7 /* Domain */,
 				E1DC6BAC24E4A6F700DB0A2C /* Info.plist */,
 			);
-			path = SwiftProjectTemplateTests;
+			path = EncodeAndDecodeEnumTests;
 			sourceTree = "<group>";
 		};
 		E1DC6BB624E4A99C00DB0A2C /* Sources */ = {
@@ -193,29 +201,28 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E1DC6B8F24E4A6F100DB0A2C /* SwiftProjectTemplate */ = {
+		E1DC6B8F24E4A6F100DB0A2C /* EncodeAndDecodeEnum */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E1DC6BAF24E4A6F700DB0A2C /* Build configuration list for PBXNativeTarget "SwiftProjectTemplate" */;
+			buildConfigurationList = E1DC6BAF24E4A6F700DB0A2C /* Build configuration list for PBXNativeTarget "EncodeAndDecodeEnum" */;
 			buildPhases = (
 				C0A684E4B1284248589A946E /* [CP] Check Pods Manifest.lock */,
 				E1DC6B8C24E4A6F100DB0A2C /* Sources */,
 				E1DC6B8D24E4A6F100DB0A2C /* Frameworks */,
 				E1DC6B8E24E4A6F100DB0A2C /* Resources */,
 				E130A79B24E4AC53001E1AA8 /* Lint */,
-				0D6656CC60C615B4DD35C7F3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SwiftProjectTemplate;
+			name = EncodeAndDecodeEnum;
 			productName = SwiftProjectTemplate;
-			productReference = E1DC6B9024E4A6F100DB0A2C /* SwiftProjectTemplate.app */;
+			productReference = E1DC6B9024E4A6F100DB0A2C /* EncodeAndDecodeEnum.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E1DC6BA524E4A6F700DB0A2C /* SwiftProjectTemplateTests */ = {
+		E1DC6BA524E4A6F700DB0A2C /* EncodeAndDecodeEnumTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E1DC6BB224E4A6F700DB0A2C /* Build configuration list for PBXNativeTarget "SwiftProjectTemplateTests" */;
+			buildConfigurationList = E1DC6BB224E4A6F700DB0A2C /* Build configuration list for PBXNativeTarget "EncodeAndDecodeEnumTests" */;
 			buildPhases = (
 				C8A760FC9FA6816178686BC5 /* [CP] Check Pods Manifest.lock */,
 				E1DC6BA224E4A6F700DB0A2C /* Sources */,
@@ -228,9 +235,9 @@
 			dependencies = (
 				E1DC6BA824E4A6F700DB0A2C /* PBXTargetDependency */,
 			);
-			name = SwiftProjectTemplateTests;
+			name = EncodeAndDecodeEnumTests;
 			productName = SwiftProjectTemplateTests;
-			productReference = E1DC6BA624E4A6F700DB0A2C /* SwiftProjectTemplateTests.xctest */;
+			productReference = E1DC6BA624E4A6F700DB0A2C /* EncodeAndDecodeEnumTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -254,7 +261,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E1DC6B8B24E4A6F100DB0A2C /* Build configuration list for PBXProject "SwiftProjectTemplate" */;
+			buildConfigurationList = E1DC6B8B24E4A6F100DB0A2C /* Build configuration list for PBXProject "EncodeAndDecodeEnum" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -267,8 +274,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E1DC6B8F24E4A6F100DB0A2C /* SwiftProjectTemplate */,
-				E1DC6BA524E4A6F700DB0A2C /* SwiftProjectTemplateTests */,
+				E1DC6B8F24E4A6F100DB0A2C /* EncodeAndDecodeEnum */,
+				E1DC6BA524E4A6F700DB0A2C /* EncodeAndDecodeEnumTests */,
 			);
 		};
 /* End PBXProject section */
@@ -295,23 +302,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0D6656CC60C615B4DD35C7F3 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwiftProjectTemplate/Pods-SwiftProjectTemplate-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwiftProjectTemplate/Pods-SwiftProjectTemplate-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftProjectTemplate/Pods-SwiftProjectTemplate-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		C0A684E4B1284248589A946E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -327,7 +317,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SwiftProjectTemplate-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-EncodeAndDecodeEnum-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -349,7 +339,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SwiftProjectTemplateTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-EncodeAndDecodeEnumTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -380,15 +370,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwiftProjectTemplateTests/Pods-SwiftProjectTemplateTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-EncodeAndDecodeEnumTests/Pods-EncodeAndDecodeEnumTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwiftProjectTemplateTests/Pods-SwiftProjectTemplateTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-EncodeAndDecodeEnumTests/Pods-EncodeAndDecodeEnumTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftProjectTemplateTests/Pods-SwiftProjectTemplateTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EncodeAndDecodeEnumTests/Pods-EncodeAndDecodeEnumTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -417,7 +407,7 @@
 /* Begin PBXTargetDependency section */
 		E1DC6BA824E4A6F700DB0A2C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E1DC6B8F24E4A6F100DB0A2C /* SwiftProjectTemplate */;
+			target = E1DC6B8F24E4A6F100DB0A2C /* EncodeAndDecodeEnum */;
 			targetProxy = E1DC6BA724E4A6F700DB0A2C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -539,20 +529,20 @@
 		};
 		E1DC6BB024E4A6F700DB0A2C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 774E1A01B72F78C6D6C77827 /* Pods-SwiftProjectTemplate.debug.xcconfig */;
+			baseConfigurationReference = A859C036EB7870DE9EE2C68B /* Pods-EncodeAndDecodeEnum.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3Y3T2VA3Q3;
-				INFOPLIST_FILE = "$(SRCROOT)/SwiftProjectTemplate/Resources/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/EncodeAndDecodeEnum/Resources/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.experiments.SwiftProjectTemplate;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.experiments.EncodeAndDecodeEnum;
+				PRODUCT_NAME = EncodeAndDecodeEnum;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -561,20 +551,20 @@
 		};
 		E1DC6BB124E4A6F700DB0A2C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 11F230F016A0ED2C5285D9ED /* Pods-SwiftProjectTemplate.release.xcconfig */;
+			baseConfigurationReference = 6C18BDE93F89A513C9CF52B9 /* Pods-EncodeAndDecodeEnum.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3Y3T2VA3Q3;
-				INFOPLIST_FILE = "$(SRCROOT)/SwiftProjectTemplate/Resources/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/EncodeAndDecodeEnum/Resources/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.experiments.SwiftProjectTemplate;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.experiments.EncodeAndDecodeEnum;
+				PRODUCT_NAME = EncodeAndDecodeEnum;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -582,55 +572,55 @@
 		};
 		E1DC6BB324E4A6F700DB0A2C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C28D0BAAFB666B5A706A4C2B /* Pods-SwiftProjectTemplateTests.debug.xcconfig */;
+			baseConfigurationReference = FCF763248BB82AC4A1BAFE7F /* Pods-EncodeAndDecodeEnumTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3Y3T2VA3Q3;
-				INFOPLIST_FILE = SwiftProjectTemplateTests/Info.plist;
+				INFOPLIST_FILE = EncodeAndDecodeEnumTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.experiments.SwiftProjectTemplateTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.experiments.EncodeAndDecodeEnumTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftProjectTemplate.app/SwiftProjectTemplate";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EncodeAndDecodeEnum.app/EncodeAndDecodeEnum";
 			};
 			name = Debug;
 		};
 		E1DC6BB424E4A6F700DB0A2C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0383C2CDCF31451FEC558866 /* Pods-SwiftProjectTemplateTests.release.xcconfig */;
+			baseConfigurationReference = 2F25E252C6B5BDB8E7A10D62 /* Pods-EncodeAndDecodeEnumTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3Y3T2VA3Q3;
-				INFOPLIST_FILE = SwiftProjectTemplateTests/Info.plist;
+				INFOPLIST_FILE = EncodeAndDecodeEnumTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.experiments.SwiftProjectTemplateTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.experiments.EncodeAndDecodeEnumTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftProjectTemplate.app/SwiftProjectTemplate";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EncodeAndDecodeEnum.app/EncodeAndDecodeEnum";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E1DC6B8B24E4A6F100DB0A2C /* Build configuration list for PBXProject "SwiftProjectTemplate" */ = {
+		E1DC6B8B24E4A6F100DB0A2C /* Build configuration list for PBXProject "EncodeAndDecodeEnum" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E1DC6BAD24E4A6F700DB0A2C /* Debug */,
@@ -639,7 +629,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E1DC6BAF24E4A6F700DB0A2C /* Build configuration list for PBXNativeTarget "SwiftProjectTemplate" */ = {
+		E1DC6BAF24E4A6F700DB0A2C /* Build configuration list for PBXNativeTarget "EncodeAndDecodeEnum" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E1DC6BB024E4A6F700DB0A2C /* Debug */,
@@ -648,7 +638,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E1DC6BB224E4A6F700DB0A2C /* Build configuration list for PBXNativeTarget "SwiftProjectTemplateTests" */ = {
+		E1DC6BB224E4A6F700DB0A2C /* Build configuration list for PBXNativeTarget "EncodeAndDecodeEnumTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E1DC6BB324E4A6F700DB0A2C /* Debug */,
