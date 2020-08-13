@@ -1,0 +1,54 @@
+name: Swift
+
+env:
+  TARGET: SwiftProjectTemplate
+  XCODE_WORKSPACE: SwiftProjectTemplate.xcworkspace
+  SIMULATOR: iPhone 11 Pro Max
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - ".github/workflows/swiftlint.yml"
+      - ".swiftlint.yml"
+      - "**/*.swift"
+
+  pull_request:
+    branches: [master]
+
+jobs:
+  Build:
+    runs-on: macos-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Select Xcode 11.5
+        run: sudo xcode-select -switch /Applications/Xcode_11.5.app
+
+      - name: Pod install
+        run: pod install
+
+      - name: Build
+        run: xcodebuild -workspace $XCODE_WORKSPACE -scheme $TARGET -destination "generic/platform=iOS" -configuration Release build CODE_SIGNING_ALLOWED=NO
+
+      - name: Run tests
+        run: xcodebuild clean test -workspace $XCODE_WORKSPACE -scheme $TARGET -destination "platform=iOS Simulator,name=$SIMULATOR,OS=latest"
+
+  Lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+
+      - name: GitHub Action for SwiftLint
+        uses: norio-nomura/action-swiftlint@3.1.0
+
+      - name: GitHub Action for SwiftLint with --strict
+        uses: norio-nomura/action-swiftlint@3.1.0
+        with:
+          args: --strict
+
+      - name: GitHub Action for SwiftLint (Only files changed in the PR)
+        uses: norio-nomura/action-swiftlint@3.1.0
+        env:
+          DIFF_BASE: ${{ github.base_ref }}
