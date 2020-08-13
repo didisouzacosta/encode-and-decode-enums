@@ -1,7 +1,2 @@
-# SwiftProjectTemplate
-Projeto base para criação de novos projetos utilizando Swift, já integrado com:
-- Cocoa Pods
-- Swift Lint
-- Alamofire
-- Nimble
-- Kingfisher
+# Encode and Decode enums
+Projeto de estudo para exemplificar como fazer encode e decode de enums
